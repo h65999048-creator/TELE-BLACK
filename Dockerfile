@@ -10,5 +10,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# 45 second wait karega taaki Tor pura connect ho jaye
+# Tor start hone ke liye 45 second wait karega
 CMD ["sh", "-c", "tor & sleep 45 && python main.py"]
