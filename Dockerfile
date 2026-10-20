@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-# Install Tor
+# Tor install kar
 RUN apt-get update && apt-get install -y tor && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -10,5 +10,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Tor start hone ke liye 45 second wait karega
-CMD ["sh", "-c", "tor & sleep 45 && python main.py"]
+# Tor ko pura 60 second do connect hone ke liye, phir bot start karo
+CMD ["sh", "-c", "tor & sleep 60 && python main.py"]
