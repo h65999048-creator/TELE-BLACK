@@ -37,7 +37,7 @@ S = "\033[0m"
 print(f"{G}[+] Bot is starting...{S}", flush=True)
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8808888235:AAHuGfaJQ5Dn-a3fecEmhUGfQNxaMl26_VQ" # <--- YAHAN APNA NAYA TOKEN DAALNA
+BOT_TOKEN = "8808888235:AAHJtDAcIc2uIHisj7yw4t0ZVwoz4EAhO7Y" # <--- YAHAN APNA NAYA TOKEN DAALNA
 OWNER_USERNAME = "@CURRENTTTTTTTT"
 OWNER_ID = 6863389453
 
